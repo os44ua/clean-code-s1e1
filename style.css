@@ -16,13 +16,11 @@ body {
 .matrix-info .more-info {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .matrix-info {
     text-align: center;
   }
 }
-
 .todo-container {
   display: block;
   width: 500px;
@@ -100,7 +98,6 @@ label[for="new-task"] {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,7 +105,6 @@ label[for="new-task"] {
 .task-item > * {
   vertical-align: middle;
 }
-
 .task-item > input[type="checkbox"] {
   margin: 0 10px;
 }
