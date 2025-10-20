@@ -37,15 +37,15 @@ body {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-item {
-  list-style:none;
+  list-style: none;
 }
 .todo-container input,
 .todo-container button{
-  outline:none;
+  outline: none;
 }
 .todo-container button {
   background: none;
@@ -118,7 +118,7 @@ label[for="new-task"] {
   font-size: 18px;
   width: 226px;
 }
-.task-item >    input[type="text"] {
+.task-item > input[type="text"] {
   width: 226px
 }
 .delete img {
@@ -139,16 +139,16 @@ label[for="new-task"] {
 /* Edit Task */
 #incomplete-tasks .task-item input[type="text"],
 #completed-tasks .task-item input[type="text"] {
-  display:none
+  display: none
 }
 
 #incomplete-tasks .task-item.edit-mode input[type="text"],
 #completed-tasks .task-item.edit-mode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 #incomplete-tasks .task-item.edit-mode label,
 #completed-tasks .task-item.edit-mode label {
-  display:none;
+  display: none;
 }
