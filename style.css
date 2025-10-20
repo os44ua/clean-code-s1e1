@@ -158,3 +158,31 @@ label[for="new-task"] {
   clip: rect(0 0 0 0);
   border: 0;
 }
+.info .info__link {
+  font-family: fantasy, cursive;
+}
+.todo {
+  display:block;
+  width:500px;
+  margin:0 auto 0;
+}
+.todo__row {
+  display:flex; }
+.todo__label {}
+.todo__title {}
+.todo__input {}
+.todo__text  {}
+
+.todo__item {
+  list-style: none;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo__item--editing {}
+.todo__btn {}
+.todo__btn--edit {}
+.todo__btn--delete {}
